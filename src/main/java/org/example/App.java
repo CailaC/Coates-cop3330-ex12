@@ -25,6 +25,6 @@ public class App
 
         double a = p * (1 + (r*t));
 
-        System.out.printf("After %.0f years at %.2f, the investment will be worth $%.2f.", t, r*100, a);
+        System.out.printf("After %.0f years at %.1f%%, the investment will be worth $%.2f.", t, r*100, a);
     }
 }
